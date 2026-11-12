@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="160dp"
+            android:src="@drawable/style_sample" android:scaleType="fitCenter"
+            android:contentDescription="@string/style_description" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/studio_title" android:textSize="26sp"
+            android:textColor="@color/brand_green" />
+    </LinearLayout>
+</ScrollView>

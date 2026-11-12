@@ -1,0 +1,19 @@
+처음부터 만드는 코딩 수업 · XML 화면 우선 개정
+
+1. ZIP을 풀고 index.html을 Chrome 또는 Edge에서 여세요.
+2. 두 학습자 교재 맨 위의 전체 목차는 기본 접힘입니다. 펼치면 웹 20장·앱 16장 전체가 보입니다. 누르면 바로 이동합니다.
+3. 각 장 끝 또는 상단의 전체 목차 링크로 돌아갈 수 있어요.
+4. 웹은 파일·HTML/CSS를 먼저 배우도록 재배치했습니다. 앱은 XML 화면(1~5장) → Kotlin 기초(6~11장) → 연결·입력·복원·저장·룩북(12~16장) 순서입니다.
+5. Android Studio에서 반드시 Empty Views Activity를 고르세요. Empty Activity(Compose) 템플릿과 다릅니다.
+6. examples/android/장별폴더의 activity_main.xml과 MainActivity.kt를 같은 예제끼리 함께 사용하세요.
+7. 최종 파일은 examples/android/activity_main.xml과 MainActivity.kt입니다. 전체 Android 프로젝트가 아닌 템플릿용 소스입니다.
+8. XML은 브라우저에서 앱으로 실행되지 않아요. Studio Code/Split 미리보기와 Run을 사용합니다.
+9. Kotlin 문법만 연습하는 작은 예제는 Playground에서 실행해요.
+10. 인쇄/PDF 버튼을 누르면 해답과 인쇄용 코드가 펼쳐집니다.
+11. 검증 범위는 검증-기록.txt를 확인하세요.
+
+개발툴 실제 화면과 키보드 그림은 04-개발툴-그림-따라하기.html에도 모아 두었습니다.
+참고 비교는 본문·샘플·미리보기 22권이며 각 책의 확인 범위를 명시했습니다.
+웹 17~20장은 호스팅·도메인·DNS·소스 수정 재배포를 다룹니다.
+
+설치·기초 절차 보완판: 웹1장에 개발툴 역할, VS Code Windows/Mac 설치, 앱1장에 Studio 설치·SDK 설정. 전체36장에 시작 위치·실행·완료 확인 보완. 05 점검표를 참고하세요.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="스타일 메뉴" android:textSize="26sp" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="16dp">
+            <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="헤어" />
+            <Button android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="메이크업" android:layout_marginStart="8dp" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="추천: 내추럴 커트" android:textSize="20sp" android:padding="16dp"
+            android:background="#E8F2EC" android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

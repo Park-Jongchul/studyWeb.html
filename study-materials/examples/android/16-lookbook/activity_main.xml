@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나의 뷰티 룩북"
+            android:textSize="28sp"
+            android:padding="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="가상의 스타일입니다. 예약·결제 기능은 없습니다."
+            android:textSize="16sp"
+            android:padding="8dp" />
+        <TextView
+            android:id="@+id/searchLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스타일 이름 검색"
+            android:labelFor="@id/searchInput"
+            android:textSize="16sp"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/searchInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="예: 커트"
+            android:inputType="text"
+            android:maxLines="1" />
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="검색하기" />
+        <CheckBox
+            android:id="@+id/onlyLiked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="찜한 스타일만 보기" />
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:padding="8dp" />
+        <LinearLayout
+            android:id="@+id/styleList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+        <TextView
+            android:id="@+id/detailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스타일의 자세히 보기를 눌러 주세요."
+            android:textSize="18sp"
+            android:padding="8dp" />
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="연습 상태 초기화" />
+    </LinearLayout>
+</ScrollView>

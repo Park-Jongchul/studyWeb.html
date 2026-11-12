@@ -1,0 +1,7 @@
+Empty Views Activity 프로젝트용 예제입니다. 전체 프로젝트가 아닙니다.
+
+1. activity_main.xml → app/src/main/res/layout/activity_main.xml
+2. MainActivity.kt → 프로젝트 패키지의 MainActivity.kt. package 줄을 프로젝트 값에 맞추세요.
+3. 생성된 Gradle·Manifest·테마 설정은 유지합니다.
+4. XML과 Kotlin은 같은 폴더의 짝으로 넣고 Run을 실행하세요.
+5. strings.xml·colors.xml은 res/values에 필요한 항목을 병합하세요. 기존 테마 자원은 지우지 않아요. style_sample.xml은 res/drawable에 넣으세요.
