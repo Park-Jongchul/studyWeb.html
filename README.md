@@ -21,3 +21,8 @@ Pages가 활성화된 뒤 위 주소에서 읽을 수 있습니다. 로컬에서
 ## 검증 범위
 
 웹 예제·목차·모바일 표시를 브라우저에서 검증했습니다. Android SDK 전체 앱 빌드와 Windows/Mac 설치 프로그램은 직접 실행하지 않았으며 설치 안내는 공식 문서와 대조했습니다.
+
+## 추가 수업 · 2026-11-13
+
+- [크롬 인스펙터 사용법](studyWeb.html#devtools): 열기, Elements, Styles, Console, 오류 수정, 모바일, Network 실습
+- [VS Code에서 내 도메인에 반영](studyWeb.html#vscode-publish): Git 준비, 복제, Stage·Commit·Push, Pages 자동 배포 확인

@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; background: #eef5ef; font: 18px/1.7 system-ui, sans-serif; }
+.card { max-width: 760px; margin: 30px auto; padding: 24px; background: white; border-radius: 16px; }
+#pageTitle { color: #19654a; font-size: 28px; overflow-wrap: anywhere; }
+button { padding: 12px; margin: 4px 0; max-width: 100%; cursor: pointer; }
+img { display: block; max-width: 100%; height: auto; }
