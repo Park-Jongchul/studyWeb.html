@@ -1,0 +1,23 @@
+/* 1. 너비에 padding과 border를 포함해 계산합니다. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #f2f7f3; color: #19382f; font: 18px/1.7 system-ui, sans-serif; }
+/* 2. 화면이 작으면 양옆 16px씩, 커져도 최대 1000px입니다. */
+.container { width: calc(100% - 32px); max-width: 1000px; margin: 24px auto; }
+h1 { font-size: clamp(1.6rem, 5vw, 2.5rem); overflow-wrap: anywhere; }
+/* 3. 메뉴가 길어지면 다음 줄로 넘어갑니다. */
+.menu { display: flex; flex-wrap: wrap; gap: 12px; }
+.menu a, .button { display: inline-block; padding: 12px 16px; background: #19654a; color: white; border-radius: 8px; }
+a:focus-visible { outline: 3px solid #ad5a00; outline-offset: 3px; }
+/* 4. 이미지는 자기 칸보다 커지지 않고 비율을 유지합니다. */
+.hero-image { display: block; max-width: 100%; height: auto; border-radius: 12px; }
+/* 5. 작은 화면을 기본으로: 카드 한 칸입니다. */
+.cards { display: grid; grid-template-columns: 1fr; gap: 16px; }
+.card { min-width: 0; padding: 20px; background: white; border: 1px solid #cadbd0; border-radius: 12px; overflow-wrap: anywhere; }
+/* 6. 600px 이상이면 두 칸으로 바뀝니다. */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+/* 7. 900px 이상이면 세 칸으로 바뀝니다. */
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}

@@ -26,3 +26,7 @@ Pages가 활성화된 뒤 위 주소에서 읽을 수 있습니다. 로컬에서
 
 - [크롬 인스펙터 사용법](studyWeb.html#devtools): 열기, Elements, Styles, Console, 오류 수정, 모바일, Network 실습
 - [VS Code에서 내 도메인에 반영](studyWeb.html#vscode-publish): Git 준비, 복제, Stage·Commit·Push, Pages 자동 배포 확인
+
+## 학습 순서 보완 · 2026-11-15
+
+개발자 도구 안내를 4장 앞으로 이동했습니다. 5장 첫 JavaScript 예제 전에 Console 사용·VS Code 파일 실행·Debug Console을 설명하고, 4장에는 모바일 우선 반응형 전체 파일 실습을 추가했습니다.
