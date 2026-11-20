@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-20",
+  "editableLabs": 30,
+  "standaloneFiles": 30,
+  "existingJsOutputs": 25,
+  "verified": [
+    "HTML tags and nesting examples",
+    "form label focus",
+    "CSS computed colours and sizes",
+    "classes only in final CSS unit",
+    "external CSS link",
+    "20 chapters and collapsed whole TOC",
+    "nested lesson anchors",
+    "390px and 768px book widths",
+    "automatic Pages model",
+    "existing JavaScript outputs"
+  ],
+  "limits": [
+    "No domain purchased or DNS changed in this revision",
+    "VS Code launch instructions checked against official documentation; desktop F5 was not executed"
+  ]
+}

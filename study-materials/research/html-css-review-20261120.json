@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-20",
+  "introductoryMaterials": 11,
+  "supplementary": 1,
+  "readingScope": "Public body sections and code examples; not full-book reviews",
+  "sources": [
+    {
+      "title": "MDN Learn",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax",
+      "scope": "단락을 태그로 감싸는 본문·요소 해부·속성·중첩 예제",
+      "adoption": "표시 이름보다 실제 시작·내용·끝 위치부터 가르침",
+      "charactersAvailable": 21379
+    },
+    {
+      "title": "The Odin Project",
+      "url": "https://www.theodinproject.com/lessons/foundations-html-boilerplate",
+      "scope": "HTML Boilerplate의 파일 생성·DOCTYPE·head/body·브라우저 열기 본문",
+      "adoption": "파일을 만드는 순서와 탭 제목·본문 구분을 분리",
+      "charactersAvailable": 9380
+    },
+    {
+      "title": "HTML & CSS Is Hard",
+      "url": "https://internetingishard.netlify.app/html-and-css/basic-web-pages/",
+      "scope": "Basic Web Pages의 문서 뼈대·제목·목록·강조·줄바꿈 본문",
+      "adoption": "꾸밈 없는 문서를 먼저 완성. 원문의 Atom 안내는 현재 VS Code로 대체",
+      "charactersAvailable": 18129
+    },
+    {
+      "title": "Learn to Code HTML & CSS — Shay Howe",
+      "url": "https://learn.shayhowe.com/html-css/building-your-first-web-page/",
+      "scope": "첫 장 태그·요소·속성 및 CSS 선택자·값 설명 본문",
+      "adoption": "표현의 뜻과 코드 위치를 짝지음. 빠른 클래스 소개는 이 학습자에게 미룸",
+      "charactersAvailable": 34811
+    },
+    {
+      "title": "MarkSheet",
+      "url": "https://marksheet.io/html-syntax.html",
+      "scope": "HTML Syntax·CSS Syntax의 문단·속성·who/what/how·규칙 예제",
+      "adoption": "대상→무엇→어떻게의 문장으로 CSS 읽기",
+      "charactersAvailable": 6456
+    },
+    {
+      "title": "HTML Dog",
+      "url": "https://htmldog.com/guides/html/beginner/tags/",
+      "scope": "Tags/Attributes/Elements와 Applying CSS 본문·전체 문서 예제",
+      "adoption": "태그만 바꾼 결과와 스타일 추가 결과를 분리. 외부 CSS 연결을 직접 연습",
+      "charactersAvailable": 3187
+    },
+    {
+      "title": "web.dev Learn HTML",
+      "url": "https://web.dev/learn/html/overview",
+      "scope": "Overview의 요소·속성·중첩·빈 요소 본문",
+      "adoption": "이미지처럼 끝 태그 없는 요소와 중첩 순서 구분",
+      "charactersAvailable": 15393
+    },
+    {
+      "title": "W3Schools HTML",
+      "url": "https://www.w3schools.com/html/html_elements.asp",
+      "scope": "HTML Elements의 시작·내용·끝·중첩·빈 요소 예제 설명",
+      "adoption": "예제 다음 결과 비교. 잘못된 HTML을 브라우저가 보정해도 올바르게 쓰는 이유 설명",
+      "charactersAvailable": 9315
+    },
+    {
+      "title": "Learn-HTML.org",
+      "url": "https://www.learn-html.org/en/Basic_Elements",
+      "scope": "Basic Elements의 제목·문단·목록·이미지 설명과 연습",
+      "adoption": "한 종류마다 직접 바꾸는 과제 추가. class/data 속성은 처음에 나열하지 않음",
+      "charactersAvailable": 5414
+    },
+    {
+      "title": "The HTML Handbook — Flavio Copes / freeCodeCamp",
+      "url": "https://www.freecodecamp.org/news/the-html-handbook/",
+      "scope": "HTML Basics·문서 머리/본문·문자·링크·컨테이너·표·폼의 공개 본문과 예제",
+      "adoption": "사용할 태그 범위를 넓히고 문서 한 장으로 종합",
+      "charactersAvailable": 84304
+    },
+    {
+      "title": "The CSS Handbook — Flavio Copes / freeCodeCamp",
+      "url": "https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/",
+      "scope": "CSS 연결·기본 선택자·색·글자·상자 관련 공개 본문과 예제",
+      "adoption": "선택자 문법부터 분해. 공개 시점의 오래된 안내는 그대로 옮기지 않음. style link의 type 속성은 현대 HTML에서 필수 아님",
+      "charactersAvailable": 165653
+    },
+    {
+      "title": "Eloquent JavaScript · 브라우저 장(보조 자료)",
+      "url": "https://eloquentjavascript.net/13_browser.html",
+      "scope": "HTML·head/body·태그·CSS 설명과 코드 본문",
+      "adoption": "서버/브라우저 구분과 저장·실행 구분 보조. HTML 입문 강좌 11종 수에는 포함하지 않음",
+      "charactersAvailable": 16426
+    }
+  ]
+}
