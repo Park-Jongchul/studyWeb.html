@@ -1,0 +1,12 @@
+{
+  "three_file_lesson": "CSS and click passed; matches book text",
+  "book_copies": 2,
+  "review_sources": 21,
+  "bridges": 11,
+  "mobile_widths": [
+    390,
+    768
+  ],
+  "anchors": "passed",
+  "page_errors": []
+}
